@@ -5,7 +5,7 @@ public class Triangle extends Figure {
     int a = 5, b = 4, c = 3;
 
     @Override
-    protected void Perimeter() {
+    protected void perimeter() {
         System.out.println("Периметр " + name + " равен " + (a + b + c));
     }
 }

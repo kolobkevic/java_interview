@@ -5,7 +5,7 @@ public class Rectangle extends Figure{
     String name = "Rectangle";
 
     @Override
-    protected void Perimeter() {
+    protected void perimeter() {
         System.out.println("Периметр " + name + " равен " + 4 * a);
     }
 }
