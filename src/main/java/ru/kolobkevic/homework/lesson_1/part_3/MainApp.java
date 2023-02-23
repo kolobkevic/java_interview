@@ -11,7 +11,7 @@ public class MainApp {
 
         List<Figure> figures = Arrays.asList(circleFigure, triangleFigure, rectangleFigure);
         for(Figure f: figures){
-            f.Perimeter();
+            f.perimeter();
         }
     }
 }

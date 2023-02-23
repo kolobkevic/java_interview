@@ -5,7 +5,7 @@ public class Circle extends Figure {
     String name = "Circle";
 
     @Override
-    protected void Perimeter() {
+    protected void perimeter() {
         System.out.println("Периметр " + name + " равен " + Math.PI * 2 * radius);
     }
 }
